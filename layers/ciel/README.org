@@ -1,0 +1,9 @@
+* ciel Layer 
+
+
+For more information: https://github.com/cs14095/ciel.el
+
+
+* Keybindings
+
+I didn't bind any key! Those commands are not going to called many times in a day. Use M-x

@@ -1,0 +1,11 @@
+* Evil-Lion Layer 
+
+
+For more information: https://github.com/edkolev/evil-lion 
+
+
+* Keybindings
+
+I didn't bind any key! Those commands are not going to called many times in a day. Use M-x
+
+
