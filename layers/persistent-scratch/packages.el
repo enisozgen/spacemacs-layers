@@ -1,11 +1,5 @@
 ;;; packages.el --- persistent-scratch Layer packages File for Spacemacs
 ;;
-;; Copyright (c) 2012-2014 Sylvain Benner
-;; Copyright (c) 2014-2015 Sylvain Benner & Contributors
-;;
-;; Author: Sylvain Benner <sylvain.benner@gmail.com>
-;; URL: https://github.com/syl20bnr/spacemacs
-;;
 ;; This file is not part of GNU Emacs.
 ;;
 ;;; License: GPLv3
@@ -26,7 +20,7 @@
     (progn
       ;; add binding for temp scratch buffer
       (evil-leader/set-key
-        "b t" 'spacemacs/new-empty-buffer)
+        "b c" 'spacemacs/new-empty-buffer) ;; Shortcut as tmux new window
       ;; clean up which-key
       (add-to-list 'which-key-description-replacement-alist '("persistent-scratch\/" . ""))
       (setq persistent-scratch-backup-directory
@@ -47,5 +41,4 @@
     (advice-remove 'helm-skip-boring-buffers 'filter-scratch-buffers))
 
   (evil-leader/set-key
-    "h s" 'persistent-scratch/scratch-buffers-list)
-  )
+    "b l" 'persistent-scratch/scratch-buffers-list))

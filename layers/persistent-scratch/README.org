@@ -1,6 +1,5 @@
 #+TITLE: Persistent scratch contribution layer for Spacemacs
 
-I don't know why don't accept this [[https://github.com/syl20bnr/spacemacs/pull/2929][layer]]
 
 * Table of Contents                                                   :TOC@4:
  - [[#description][Description]]
