@@ -1,8 +1,5 @@
 (defconst undotree-layer-packages
-  '(
-    undo-tree
-    )
-  )
+  '(undo-tree))
 
 
 (defun undotree-layer/post-init-undo-tree ()

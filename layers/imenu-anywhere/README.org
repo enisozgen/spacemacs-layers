@@ -1,0 +1,3 @@
+* imenu-anywhere layer
+
+This layer does not do anything more than installing package from GitHub.

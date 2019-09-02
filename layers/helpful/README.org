@@ -1,0 +1,13 @@
+* Helpful Layer
+
+For more information: https://github.com/Wilfred/helpful
+
+* Key bindings
+
+| Key Binding | Description      |
+|-------------+------------------|
+| ~C-h C-k~   | helpful-key      |
+| ~C-h k~     | helpful-key      |
+| ~C-h C-v~   | helpful-variable |
+| ~C-h v~     | helpful-variable |
+| ~C-h F~     | helpful-function |
